@@ -22,7 +22,7 @@ def caca(a, b):
 
 
 p, x = [int(y) for y in input().strip().split(" ")]
-a = int("".join(["9"] * p))
+a = "".join(["9"] * p)
 b = 10 * x - 1
 # print("p {} x {} a {} b {}".format(p, x,a,b))
 
